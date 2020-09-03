@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .formdiv{
+            display: inline-block; width: 450px; height: 400px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            margin-left: 300px;
+        }
+        #firstname{
+            width: 400px;
+            margin-top: 10px;
+        }
+        #lastname{
+            width: 400px;
+            margin-top: 10px;
+        }
+        #country{
+            width: 400px;
+            margin-top: 10px;
+        }
+        .btn{
+            background-color: #4DAF4F;
+        }
+        #subject{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="formdiv">
+        <form action="">
+            <label for="fristname">First Name</label>
+            <input type="text" name="fristname" id="firstname" placeholder="Your name..."> <br><br>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Your last name..."> <br><br>
+
+            <label for="timein">Country</label>
+            <div>
+                <select id="country" name="country">
+                    <option value="Afganistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Bonaire">Bonaire</option>
+                    <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Togo">Togo</option>
+                </select> 
+                    
+            </div>
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" cols="50" rows="10" placeholder="write something..."></textarea>
+
+            <button class="btn" type="submit">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
